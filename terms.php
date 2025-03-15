@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Starter Page - Dewi Bootstrap Template</title>
+  <title>Satyajit</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -41,18 +41,18 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <a href="index.php" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Dewi</h1>
+        <h1 class="sitename">Satyajit</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <!-- <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -69,14 +69,14 @@
               <li><a href="#">Dropdown 2</a></li>
               <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+            </ul> -->
+          </li> 
+          <li><a href="#contact">Contact</a></li> 
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="cta-btn" href="index.html#about">Get Started</a>
+      <a class="cta-btn" href="index.html#about">Customer Portal</a>
 
     </div>
   </header>
@@ -86,8 +86,8 @@
     <!-- Page Title -->
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
       <div class="container position-relative">
-        <h1>Starter Page</h1>
-        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+        <h1>Terms & Conditions</h1>
+        <p>Welcome to [Your Company Name]</p>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
@@ -102,30 +102,77 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Starter Section</h2>
-        <p>Starter Section Title<br></p>
+        <h2>Terms & Conditions | VoIP Solutions Provider</h2>
+        <!-- <p>Starter Section Title<br></p> -->
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up">
-        <p>Use this page as a starter for your own custom pages.</p>
+        <h2>1. Introduction</h2>
+        <p>Welcome to [Your Company Name]. By accessing our services including VoIP solutions, PBX services, Vicidial, GoAutodial, Virtual Call Centre, and Termination Services, you agree to comply with these Terms & Conditions.</p>
       </div>
 
+      <div class="container" data-aos="fade-up">
+      <h2>2. Services Offered</h2>
+        <ul>
+            <li>VoIP Provider Solutions</li>
+            <li>PBX Solutions</li>
+            <li>Vicidial & GoAutodial Support</li>
+            <li>Virtual Call Centre Solutions</li>
+            <li>Wholesale & Reseller – Terminations</li>
+            <li>Call Centre Terminations</li>
+            <li>DID & CLI Services</li>
+        </ul>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+      <h2>3. User Responsibilities</h2>
+      <p>Users are responsible for maintaining the confidentiality of their account information and ensuring all activities under their account comply with these terms.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+      <h2>4. Payment & Billing</h2>
+        <p>All services are billed as per agreed terms. Failure to pay on time may result in suspension or termination of services.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+      <h2>5. Fair Usage Policy</h2>
+        <p>We enforce a fair usage policy to ensure service quality for all customers. Excessive or abusive usage may result in limited access or termination.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+      <h2>6. Termination Policy</h2>
+        <p>We reserve the right to terminate services for violation of these terms or misuse of our platforms. Refund policies will apply accordingly.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+      <h2>7. Liability Disclaimer</h2>
+        <p>While we strive to provide uninterrupted service, we are not responsible for technical disruptions, data loss, or other unforeseen events.</p>
+      </div>
+      
+      <div class="container" data-aos="fade-up">
+      <h2>8. Privacy Policy</h2>
+        <p>Your data is protected under our privacy policy. We will never share your information without consent, except as required by law.</p>
+      </div>
+      <div class="container" data-aos="fade-up">
+      <h2>9. Contact Us</h2>
+        <p>If you have any questions about these Terms & Conditions, please contact us at <a href="mailto:support@yourcompany.com">support@yourcompany.com</a>.</p>
+      </div>
     </section><!-- /Starter Section Section -->
 
   </main>
 
   <footer id="footer" class="footer dark-background">
 
-    <div class="container footer-top">
+  <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Dewi</span>
+          <a href="index.php" class="logo d-flex align-items-center">
+            <span class="sitename">Satyajit</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p>Sector 5, Kolkata</p>
+            <p>West Bengal, IND 700091</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 8981583525</span></p>
             <p><strong>Email:</strong> <span>info@example.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
@@ -139,15 +186,15 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="index.php">Home</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="terms.php">Terms of service</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="privacy.php">Privacy policy</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <!-- <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -156,7 +203,7 @@
             <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
           </ul>
-        </div>
+        </div> -->
 
         <div class="col-lg-4 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
@@ -173,13 +220,13 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Dewi</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Satyajit</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
+        
       </div>
     </div>
 

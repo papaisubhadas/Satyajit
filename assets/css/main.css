@@ -1889,3 +1889,23 @@ section,
   display: block;
   margin: 0 auto; /* Centers the image */
 }
+
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.whatsapp-float img {
+    width: 40px;
+    height: 40px;
+}
